@@ -1,5 +1,5 @@
 {
-  "name": "week2-2-node-mongo",
+  "name": "week2-3-node-mongoose",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,8 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "assert": "^2.0.0",
-    "mongodb": "^3.6.3",
     "mongoose": "^5.11.15"
   }
 }
