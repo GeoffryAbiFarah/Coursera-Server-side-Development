@@ -4,8 +4,8 @@ const passportLocalMongoose = require('passport-local-mongoose');
 
 
 const User = new Schema({
-    //username and password fields are provided by passport-local-mongoose
-    // with the hash of the password
+    //username and password fields are provided by passport-local-mongoose,
+    //with the encryption of the password
 
     // username: {
     //     type: String,
@@ -23,6 +23,6 @@ const User = new Schema({
     }
 });
 
-User.plugin(passportLocalMongoose);
+User.plugin(passportLocalMongoose); //adds everything stated before
 
 module.exports = mongoose.model('User', User);
